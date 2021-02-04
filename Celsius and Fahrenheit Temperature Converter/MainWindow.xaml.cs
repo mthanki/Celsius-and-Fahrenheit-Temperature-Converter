@@ -67,6 +67,7 @@ namespace Celsius_and_Fahrenheit_Temperature_Converter
             }
             catch
             {
+                HideHotAndCold();
                 ChangeDesignForError();
                 Result.Content = "Please enter a valid number";
             }
@@ -97,6 +98,7 @@ namespace Celsius_and_Fahrenheit_Temperature_Converter
             catch
             {
                 ChangeDesignForError();
+                HideHotAndCold();
                 Result.Content = "Please enter a valid number";
             }
         }
