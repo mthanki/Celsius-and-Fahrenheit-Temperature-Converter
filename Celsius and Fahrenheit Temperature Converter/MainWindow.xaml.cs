@@ -82,11 +82,11 @@ namespace Celsius_and_Fahrenheit_Temperature_Converter
                 float Fahrenheit = (float)(9.0 / 5.0 * Celsius) + 32;
                 Result.Content = $"{Fahrenheit:n0} °F";
 
-                if (Fahrenheit < 1)
+                if (Fahrenheit < 38)
                 {
                     ShowCold();
                 }
-                else if (Fahrenheit > 15)
+                else if (Fahrenheit > 59)
                 {
                     ShowHot();
                 }

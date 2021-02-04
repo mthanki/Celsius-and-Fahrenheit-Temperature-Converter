@@ -21,7 +21,6 @@ Title="Celsius and Fahrenheit Temperature Converter" ResizeMode="NoResize" Heigh
         <Border Grid.Row="1" Padding="5" Grid.Column="0" Grid.ColumnSpan="2" CornerRadius="8" BorderBrush="DarkCyan" BorderThickness="2" Margin="310,5,310,0">
             <TextBox Name="Input" Background="DeepSkyBlue" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Light" MaxLength="3" FontSize="50" ></TextBox>
         </Border>
-
         <Label Name="Result_Label" Grid.Row="2" Padding="0,11.5,0,30" Foreground="White" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="75" >
             <StackPanel Orientation="Horizontal" Margin="0">
                 <Label Name="Result" Foreground="White" HorizontalContentAlignment="Center"></Label>
@@ -29,7 +28,6 @@ Title="Celsius and Fahrenheit Temperature Converter" ResizeMode="NoResize" Heigh
                     <Image Name="Hot_Icon" Visibility="Visible" Source="./Images/sun.png" Grid.Column="1" Grid.Row="2"/>
                     <Image Name="Cold_Icon" Height="80px" Visibility="Visible" Source="./Images/cold.png" Grid.Row="2" Grid.Column="1"></Image>
                 </Grid>
-
             </StackPanel>
         </Label>
         <Button Cursor="Hand" Grid.Column="0" Grid.Row="3" Name="Convert_To_Celsius" Foreground="White" Content="Convert to Celsuis" Click="Convert_To_Celsius_Click" FontSize="30" Margin="8" Background="DodgerBlue" BorderThickness="0" BorderBrush="White"></Button>
