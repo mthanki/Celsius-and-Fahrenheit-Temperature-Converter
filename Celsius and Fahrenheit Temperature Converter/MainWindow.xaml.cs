@@ -20,6 +20,7 @@ namespace Celsius_and_Fahrenheit_Temperature_Converter
             Cold_Icon.Visibility = Visibility.Hidden;
             Hot_Icon.Visibility = Visibility.Visible;
         }
+
         private void ShowCold()
         {
             Temperature_Icons_Grid.Visibility = Visibility.Visible;
@@ -39,6 +40,7 @@ namespace Celsius_and_Fahrenheit_Temperature_Converter
             Result.FontSize = 45;
             Result.FontStyle = FontStyles.Italic;
         }
+
         private void ResetDesign()
         {
             Result.FontSize = 75;
@@ -102,6 +104,5 @@ namespace Celsius_and_Fahrenheit_Temperature_Converter
                 Result.Content = "Please enter a valid number";
             }
         }
-
     }
 }
